@@ -28,6 +28,11 @@
 		FAEFE04517253CB90045FBDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEFE01517253CB90045FBDB /* Foundation.framework */; };
 		FAEFE04D17253CB90045FBDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAEFE04B17253CB90045FBDB /* InfoPlist.strings */; };
 		FAEFE05017253CB90045FBDB /* MiCommTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEFE04F17253CB90045FBDB /* MiCommTests.m */; };
+		FAEFE06A172824EC0045FBDB /* monkey_toy.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEFE069172824EB0045FBDB /* monkey_toy.png */; };
+		FAEFE06C172824F40045FBDB /* monkey_toy_114.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEFE06B172824F30045FBDB /* monkey_toy_114.png */; };
+		FAEFE06E172825070045FBDB /* monkey_toy_57.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEFE06D172825060045FBDB /* monkey_toy_57.png */; };
+		FAEFE070172825970045FBDB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEFE06F172825970045FBDB /* AVFoundation.framework */; };
+		FAEFE072172825D10045FBDB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEFE071172825D00045FBDB /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +74,11 @@
 		FAEFE04C17253CB90045FBDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FAEFE04E17253CB90045FBDB /* MiCommTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiCommTests.h; sourceTree = "<group>"; };
 		FAEFE04F17253CB90045FBDB /* MiCommTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiCommTests.m; sourceTree = "<group>"; };
+		FAEFE069172824EB0045FBDB /* monkey_toy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = monkey_toy.png; path = "../../../../Downloads/monkey-master/monkey_toy.png"; sourceTree = "<group>"; };
+		FAEFE06B172824F30045FBDB /* monkey_toy_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = monkey_toy_114.png; path = "../../../../Downloads/monkey-master/monkey_toy_114.png"; sourceTree = "<group>"; };
+		FAEFE06D172825060045FBDB /* monkey_toy_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = monkey_toy_57.png; path = "../../../../Downloads/monkey-master/monkey_toy_57.png"; sourceTree = "<group>"; };
+		FAEFE06F172825970045FBDB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FAEFE071172825D00045FBDB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +86,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAEFE072172825D10045FBDB /* QuartzCore.framework in Frameworks */,
 				FAEFE01417253CB90045FBDB /* UIKit.framework in Frameworks */,
 				FAEFE01617253CB90045FBDB /* Foundation.framework in Frameworks */,
 				FAEFE01817253CB90045FBDB /* CoreGraphics.framework in Frameworks */,
+				FAEFE070172825970045FBDB /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +110,8 @@
 		FAEFE00717253CB90045FBDB = {
 			isa = PBXGroup;
 			children = (
+				FAEFE071172825D00045FBDB /* QuartzCore.framework */,
+				FAEFE06F172825970045FBDB /* AVFoundation.framework */,
 				FAEFE01917253CB90045FBDB /* MiComm */,
 				FAEFE04817253CB90045FBDB /* MiCommTests */,
 				FAEFE01217253CB90045FBDB /* Frameworks */,
@@ -139,6 +153,9 @@
 				FAEFE03617253CB90045FBDB /* MiSecondViewController.m */,
 				FAEFE03817253CB90045FBDB /* second.png */,
 				FAEFE03A17253CB90045FBDB /* second@2x.png */,
+				FAEFE069172824EB0045FBDB /* monkey_toy.png */,
+				FAEFE06B172824F30045FBDB /* monkey_toy_114.png */,
+				FAEFE06D172825060045FBDB /* monkey_toy_57.png */,
 				FAEFE01A17253CB90045FBDB /* Supporting Files */,
 			);
 			path = MiComm;
@@ -258,6 +275,9 @@
 				FAEFE03417253CB90045FBDB /* first@2x.png in Resources */,
 				FAEFE03917253CB90045FBDB /* second.png in Resources */,
 				FAEFE03B17253CB90045FBDB /* second@2x.png in Resources */,
+				FAEFE06A172824EC0045FBDB /* monkey_toy.png in Resources */,
+				FAEFE06C172824F40045FBDB /* monkey_toy_114.png in Resources */,
+				FAEFE06E172825070045FBDB /* monkey_toy_57.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
