@@ -424,10 +424,13 @@
 		FAEFE05417253CB90045FBDB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Eyal Yeger (J8MWF4TMY4)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MiComm/MiComm-Prefix.pch";
 				INFOPLIST_FILE = "MiComm/MiComm-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1E45E3C6-38DC-4128-9335-40C93285E421";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -438,6 +441,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MiComm/MiComm-Prefix.pch";
 				INFOPLIST_FILE = "MiComm/MiComm-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
